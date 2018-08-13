@@ -1,6 +1,6 @@
 **NOTE:** If you're looking for swagger 1.5.X and OpenApi 2.0, please refer to [1.5 branch](https://github.com/swagger-api/swagger-core/tree/1.5)
 
-# Swagger Core library 1
+# Swagger Core library 13
 
 [![Build Status](https://travis-ci.org/swagger-api/swagger-core.svg?branch=master)](https://travis-ci.org/swagger-api/swagger-core)
 
