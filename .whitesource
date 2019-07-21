@@ -1,6 +1,15 @@
-#### WhiteSource "Bolt for Github" configuration file ####
-#---------------------------------------------------------
-
-# Configuration
-#--------------
-#scanRepository=false
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": ""
+"},
+  "generalSettings": {
+    "shouldScanRepo": true
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  }
+}
