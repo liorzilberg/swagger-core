@@ -18,6 +18,7 @@
         <developerConnection>scm:git:git@github.com:swagger-api/swagger-core.git</developerConnection>
         <url>https://github.com/swagger-api/swagger-core</url>
     </scm>
+         
     <prerequisites>
         <maven>2.2.0</maven>
     </prerequisites>
