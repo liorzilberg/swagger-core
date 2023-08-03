@@ -46,6 +46,10 @@ public class ModelConverterContextImpl implements ModelConverterContext {
         defineModel(name, model, aType, null);
     }
 
+    public void defineModel(String name, Schema model, AnnotatedType aType) {
+        defineModel(name, model, aType, null);
+    }
+
     @Override
     public void defineModel(String name, Schema model, Type type, String prevName) {
         defineModel(name, model, new AnnotatedType().type(type), prevName);
