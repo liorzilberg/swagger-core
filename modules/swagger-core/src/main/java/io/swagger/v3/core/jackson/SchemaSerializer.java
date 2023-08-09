@@ -26,6 +26,10 @@ public class SchemaSerializer extends JsonSerializer<Schema> implements Resolvab
         }
     }
 
+    public JsonSerializer<Object> getDefaultSerializer() {
+        return defaultSerializer;
+    }
+
     @Override
     public void serialize(
             Schema value, JsonGenerator jgen, SerializerProvider provider)
