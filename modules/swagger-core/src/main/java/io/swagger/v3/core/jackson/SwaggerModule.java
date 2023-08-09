@@ -20,4 +20,8 @@ public class SwaggerModule extends SimpleModule {
         super.setupModule(context);
         context.insertAnnotationIntrospector(new SwaggerAnnotationIntrospector());
     }
+
+    public void setSkipMatches(boolean skipMatches) {
+        SwaggerAnnotationIntrospector.setSkipMatches(skipMatches);
+    }
 }
