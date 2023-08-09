@@ -36,6 +36,10 @@ public class ModelConverterContextImpl implements ModelConverterContext {
         converters.add(converter);
     }
 
+    public ModelConverterContextImpl() {
+        this(new ArrayList<ModelConverter>());
+    }
+
     public Iterator<ModelConverter> getConverters() {
         return converters.iterator();
     }
