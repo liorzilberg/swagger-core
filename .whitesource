@@ -20,6 +20,4 @@
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
   }
-
-
 }
