@@ -71,6 +71,10 @@ class JAXBAnnotationsHelper {
         }
     }
 
+    public static boolean isEmpty(String str) {
+        return str == null || str.isEmpty();
+    }
+
     /**
      * Puts definitions for XML element.
      *
