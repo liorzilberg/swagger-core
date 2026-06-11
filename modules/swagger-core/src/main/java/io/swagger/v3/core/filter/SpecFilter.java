@@ -216,6 +216,8 @@ public class SpecFilter {
             ApiDescription description = new ApiDescription(resourcePath, key);
             Optional<RequestBody> filteredRequestBody = filter.filterRequestBody(requestBody, operation, description, params, cookies, headers);
             if (filteredRequestBody.isPresent()) {
+
+                
                 return filteredRequestBody.get();
             }
         }
