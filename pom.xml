@@ -495,7 +495,7 @@
         <jersey2-version>2.26</jersey2-version>
         <jackson-version>2.9.5</jackson-version>
         <logback-version>1.2.3</logback-version>
-        <reflections-version>0.9.11</reflections-version>
+        <reflections-version>0.9.12</reflections-version>
         <guava-version>23.0</guava-version>
         <commons-lang-version>3.7</commons-lang-version>
         <commons-io-version>2.6</commons-io-version>
